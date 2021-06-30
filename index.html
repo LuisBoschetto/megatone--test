@@ -7,10 +7,11 @@
 
     <!-- Estilo boostrap 4-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 
     <title>Test Megatone</title>
-    <link rel="preload" href="css/styles.css" as="style">
-    <link href="css/styles.css" rel="stylesheet"
+    
 </head>
 <body>
 
@@ -18,20 +19,29 @@
     <div class="container-fluid" style="background-color:white;">
         <div class="row">       
             <p>
-                <div class="col-4 p-5">
+                <div class="col-4 py-4">
                     <div class="input-group-append">
-                        <input type="text" class="form-control" placeholder="Tu e-mail" >
-                        <button class="btn btn-secondary" type="button">Subscribite </button>
+                        <input type="text" class="form-control" style="color: grey;" placeholder="Tu e-mail" >
+                        <button class="btn btn-secondary" style="background-color: rgb(214, 206, 206);" type="button">Subscribite </button>
                       </div>
                 </div>
-                <div class="col-4 p-3 m-4">
-                    <p>  
-                        <div class="row"> Venta Telefonica  0810-444-6342 </div>
-                        <div class="row"> AT. AL CLIENTE Lun a Vie de 9 a 20hs / Sab. de 9 a 18hs. </div>
-                        <div class="row"> EMAIL: atencionalclientemegatone.net </div>
-                    </p>        
+                <div class="col py-3">
+                    <div class="row">
+                                                   
+                        <div class="col-1 px-0"> <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone-call" width="52" height="52" viewBox="0 0 24 24" stroke-width="1" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                            <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />
+                            <path d="M15 7a2 2 0 0 1 2 2" />
+                            <path d="M15 3a6 6 0 0 1 6 6" />
+                          </svg> </div>
+                        <div class="col-11 pl-2" style="color: grey;">
+                            <a class="text-uppercase" style="color: orange"> Venta Telefónica </a> <a class="font-weight-bold" style="color: chocolate;"> 0810-444-6342</a> <br> 
+                            <a class="text-uppercase" > Atención al cliente </a> Lun. a Vie. de <a class="font-weight-bold">9</a> a <a class="font-weight-bold">20hs</a> / Sab. de  <a class="font-weight-bold">9</a> a  <a class="font-weight-bold">18hs</a> <br> 
+                            <a class="text-uppercase" > Email : </a>atencionalclientemegatone.net 
+                         </div>
+                    </div>        
                 </div>
-                <div class="col-3 p-3 m-4">
+                <div class="col-3 py-4 float-right">
                     <p>
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="40" height="40" viewBox="0 0 24 24" stroke-width="0.5" stroke="#597e8d" fill="none" stroke-linecap="round" stroke-linejoin="round">
                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -58,71 +68,68 @@
                             <polyline points="3 7 12 13 21 7" />
                         </svg>
                     </p>
-                   
-
                 </div>
             </p>
         </div>
     </div>
     <!--Second row -->
-    <div class="container-fluid" style="background-color: #e6e6e6;">
+    <div class="container-fluid py-4 " style="background-color: #e6e6e6;">
         <div class="container ">
             <div class="row">
                 <div class="col"> CATEGORIA
-                    <p>
-                        <a class="text-secondary float-left " href="#"> Smart TV</a>
-                        <a class="text-secondary float-left " href="#" > Celulares</a>
-                        <a class="text-secondary float-left " href="#"> Notebooks</a>
-                        <a class="text-secondary float-left " href="#"> Climatización</a>
-                        <a class="text-secondary float-left " href="#"> Heladeras</a>
-                        <a class="text-secondary float-left " href="#"> Lavado </a>
-                        <a class="text-secondary float-left " href="#" > Colchones y Sommiers</a>
-                    </p>
+                    <div class="py-2">
+                        <a class="text-secondary" href="#"> Smart TV</a>  <br>
+                        <a class="text-secondary" href="#" > Celulares</a> <br>
+                        <a class="text-secondary" href="#"> Notebooks</a> <br>
+                        <a class="text-secondary" href="#"> Climatización</a> <br>
+                        <a class="text-secondary" href="#"> Lavado </a> <br>
+                        <a class="text-secondary" href="#" > Colchones y Sommiers</a> <br>
+                    </div>
                 </div>
             <div class="col"> MARCAS 
-                    <p>
-                        <a class="text-secondary float-left " href="#"> Motorola </a>
-                        <a class="text-secondary float-left " href="#" > Samsung </a>
-                        <a class="text-secondary float-left" href="#"> LG </a>
-                        <a class="text-secondary float-left " href="#"> Drean </a>
-                        <a class="text-secondary float-left " href="#"> Philips </a>                    
-                    </p>
+                    <div class="py-2">
+                        <a class="text-secondary" href="#"> Motorola </a> <br>
+                        <a class="text-secondary" href="#" > Samsung </a> <br>
+                        <a class="text-secondary" href="#"> LG </a> <br>
+                        <a class="text-secondary" href="#"> Drean </a> <br>
+                        <a class="text-secondary" href="#"> Philips </a>   <br>                 
+                    </div>
                 </div>
                 <div class="col "> SERVICIOS 
-                        <p>
-                            <a class="text-secondary float-left " href="#"> Crédito Megatone</a>
-                            <a class="text-secondary float-left " href="#" > Área clientes</a>
-                            <a class="text-secondary float-left " href="#"> Estado de Cuenta</a>
-                            <a class="text-secondary float-left " href="#"> Cupon de Cancelación</a>
-                            <a class="text-secondary float-left" href="#"> Catálogo</a>
-                            <a class="text-secondary float-left" href="#"> ¿Cómo pago mis cuotas? </a>
-                            <a class="text-secondary float-left" href="#" > Pedir turno </a>
-                        </p>
+                        <div class="py-2">
+                            <a class="text-secondary" href="#"> Crédito Megatone</a> <br>
+                            <a class="text-secondary" href="#" > Área clientes</a> <br>
+                            <a class="text-secondary" href="#"> Estado de Cuenta</a> <br> 
+                            <a class="text-secondary" href="#"> Cupon de Cancelación</a> <br>
+                            <a class="text-secondary" href="#"> Catálogo</a><br>
+                            <a class="text-secondary" href="#"> ¿Cómo pago mis cuotas? </a><br>
+                            <a class="text-secondary" href="#" > Pedir turno </a><br>
+                        </div>
                 </div>
                     <div class="col"> MEGATONE
-                        <p>
-                            <a class="text-secondary float-left" href="#"> Sucursales</a>
-                            <a class="text-secondary float-left" href="#" > Trabajá con nosotros</a>
-                            <a class="text-secondary float-left " href="#"> Contacto</a>
-                            <a class="text-secondary float-left " href="#"> Términos y Condiciones</a>
-                            <a class="text-secondary float-left " href="#"> Cambios y Devoluciones</a>
-                            <a class="text-secondary float-left " href="#"> Política de Privacidad </a>
-                            <a class="text-secondary float-left " href="#" > Hot Sale</a>
-                            <a class="text-secondary float-left " href="#" > Ofertas del Día de la Madre</a>
-                        </p>
+                        <div class="py-2">
+                            <a class="text-secondary" href="#"> Sucursales</a><br>
+                            <a class="text-secondary" href="#" > Trabajá con nosotros</a><br>
+                            <a class="text-secondary" href="#"> Contacto</a><br>
+                            <a class="text-secondary" href="#"> Términos y Condiciones</a><br>
+                            <a class="text-secondary" href="#"> Cambios y Devoluciones</a><br>
+                            <a class="text-secondary" href="#"> Política de Privacidad </a><br>
+                            <a class="text-secondary" href="#" > Hot Sale</a><br>
+                            <a class="text-secondary" href="#" > Ofertas del Día de la Madre</a><br>
+                        </div>
                     </div>
                     <div class="col"> PRODUCTOS
-                        <p>
-                            <a class="text-secondary float-left " href="#"> Promociones</a>
-                            <button type="button" class="btn btn-sm btn-secondary ">Ventas corporativas</button>
-                        </p>
+                        <div class="py-2">
+                            <a class="text-secondary" href="#"> Promociones</a>       
+                            <button class="btn" style="background-color: chocolate;"> <i class="fa fa-handshake-o"></i>  Ventas corporativas </button>
+                        </div>
                     </div>
                 </div>
             </div>
     </div>
     <!--Third row -->
     <div class="container-fluid" style="background-color: white;"> 
-        <div class="row">   
+        <div class="row py-3">   
                     <p class="col text-center"> Img BZGroup</p>
                     <p class="col text-center"> Img Megatone</p>
                     <p class="col text-center"> Img Megacash</p>
@@ -134,8 +141,8 @@
 
     <!--Fourth row -->
     <div class="container-fluid" style="background-color: #e6e6e6;"> 
-            <div class="container text-center">
-                <p> Bases y condiciones </p>
+            <div class="container text-justify py-2">
+                <div class="p px-5" style="font-size:smaller;">Copyright 2020. Megatone. Todos los derechos reservados. Bazar Avenida S.A. - Calle 3 Nº 1045 - Rafaela - Santa Fe - Argentina. Tel.: 03492-438000. CUIT: 30-53284754-7. Las fotos e imágenes de los productos son meramente ilustrativas. Todos los productos gozan de la garantía de su fabricante o importador. La venta de cualquiera de los productos publicados está sujeta a verificación de stock. Los precios publicados son exclusivos para venta telefónica y a través de www.megatone.net. Los precios que se visualizan actualmente son válidos para el día de la fecha, 30/6/2021; e incluyen IVA. Ofertas para consumidor final. </div>
             </div>
     </div>
 
@@ -144,7 +151,6 @@
 </div>
     
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>-->
+    
 </body>
 </html>
